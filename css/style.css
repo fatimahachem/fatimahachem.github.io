@@ -8,6 +8,15 @@ https://coolors.co/47bfc1-c86ff6-5957ca-ffffff-252323
 #252323 - Raisin Black
 */
 
+/* Colors
+-----------------------------------*/
+:root {
+    --maximum-blue-green: #47BFC1;
+    --heliotrope: #C86FF6;
+    --Iris: #5957CA;
+    --raisin-black: #252323;
+}
+
 /* Fonts
 -----------------------------------*/
 @font-face {
@@ -30,6 +39,10 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
     font-family: "JosefinSans-Regular", Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.container {
+    padding: 80px;
+}
+
 .btn, .btn:hover {
     background: #5957CA;
     border: 1px solid #5957CA;
@@ -38,8 +51,6 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
 }
 
 .full-width-section {
-    padding: 6rem;
-    margin: 4rem 0;
     text-align: center;
     background: #47BFC1;
     color: #FFFFFF;
@@ -59,28 +70,22 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
 /* Header Style
 -----------------------------------*/
 .hero {
-    padding: 8rem;
-    margin-bottom: 2rem;
+    /* padding: 6em; */
     background: #47BFC1;
     color: #FFFFFF;
+    margin-top: 50px;
 }
 
+.hero p {
+    font-size: 21px;
+}
 
 /* About
 -----------------------------------*/
-#about {
-    padding: 6rem;
-    width: 1000px;
+/* #about {
+    padding: 6em;
     margin: 0 auto;
-}
-
-.special-highlight {
-    color: #FFFFFF;
-    content: "";
-    width: 100%;
-    height: 20px;
-    background: #47BFC1;
-}
+} */
 
 /* Testimonials
 -----------------------------------*/
@@ -95,27 +100,36 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
 /* Blog
 -----------------------------------*/
 #blog {
-    padding: 6rem;
-    width: 1000px;
     margin: 0 auto;
 }
 
+#blog .col-sm {
+    padding: 10px;
+}
+
+#blog .card {
+    color: #252323;
+}
 
 /* Contact
 -----------------------------------*/
+#contact input, #contact textarea, #contact button {
+    margin: 10px auto;
+    border-radius: 0;
+}
 
-
+/* Bottom CTA
+-----------------------------------*/
+#bottom-cta {
+    background: #C86FF6;
+    color: #FFFFFF;
+}
 
 /* Footer
 -----------------------------------*/
 .site-footer {
-    padding: 50px;
     background: #5957CA;
     color: #FFFFFF;
-}
-
-.footer-columns {
-    text-align: center;
 }
 
 .copyright {
@@ -123,5 +137,21 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
     padding-top: 50px;
 }
 
+#footer-subscribe button, #footer-subscribe button:hover {
+    background: #47BFC1;
+    border: 1px solid #47BFC1;
+}
+
+#footer-subscribe input[type='email'] {
+    border-radius: 0;
+}
+
+/* Media Queries
+------------------------------------*/
+/* @media (min-width: 1200px) {
+    .container {
+      max-width: 1000px;
+    }
+} */
 
 
