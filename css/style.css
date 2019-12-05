@@ -195,6 +195,10 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
     border-radius: 0;
 }
 
+.kw-field-wrapper {
+    width: 100%;
+}
+
 /* Bottom CTA
 -----------------------------------*/
 #bottom-cta {
