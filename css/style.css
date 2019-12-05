@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
 }
 
 .container {
-    padding: 80px;
+    padding: 50px;
 }
 
 .btn, .btn:hover {
@@ -186,6 +186,42 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
 
 #blog .card {
     color: #252323;
+}
+
+.tag {
+    border: 1px solid #e5e5e5;
+    background: none;
+    color: #252323;
+}
+
+.tag:hover {
+    border: 1px solid #252323;
+    background: none;
+    color: #252323;
+}
+
+.btn-facebook {
+    background: #475A96;
+    border: solid 1px #475A96;
+    padding: 10px;
+}
+
+.btn-twitter {
+    background: #49B2E8;
+    border: solid 1px #49B2E8;
+    padding: 10px;
+}
+
+.btn-pinterest {
+    background: #D74047;
+    border: solid 1px #D74047;
+    padding: 10px;
+}
+
+.btn-linkedin {
+    background: #0D76B4;
+    border: solid 1px #0D76B4;
+    padding: 10px;
 }
 
 /* Contact
