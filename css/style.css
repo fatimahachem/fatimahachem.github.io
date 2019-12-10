@@ -39,8 +39,18 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
     font-family: "JosefinSans-Regular", Verdana, Geneva, Tahoma, sans-serif;
 }
 
+a {
+    color: #5957CA;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C86FF6;
+    text-decoration: none;
+ }
+
 .container {
-    padding: 50px;
+    padding: 60px;
 }
 
 .btn, .btn:hover {
@@ -69,31 +79,117 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
 
 /* Header Style
 -----------------------------------*/
-.hero {
-    /* padding: 6em; */
+/* .hero {
     background: #47BFC1;
     color: #FFFFFF;
     margin-top: 50px;
+} */
+
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+    color: #252323;
+    
+    /* Background styles */
+    background-image: linear-gradient(#47BFC1,#FFFFFF), url('/img/testimonial-image.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    /* Text styles */
+    font-size: 5em;
+    
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
 }
 
 .hero p {
     font-size: 21px;
 }
 
+.hero .btn {
+    /* Positioning and sizing */
+    display: block;
+    width: 200px;
+    
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Border styles */
+    border: none;
+    
+    /* Text styles */
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    
+    /* Background styles */
+    background-color: #5957CA;
+}
+
 /* Services
 -----------------------------------*/
+#services {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #services h1 {
     text-align: center;
 }
 
 /* About
 -----------------------------------*/
+#about {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #about h1 {
     text-align: center;
 }
 
 /* Testimonials
 -----------------------------------*/
+#testimonials {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #testimonials h1 {
     text-align: center;
 }
@@ -171,13 +267,31 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
 
 /* Work With Me
 -----------------------------------*/
+#work-with-me {
+    /* Sizing */
+    /* width: 100vw;
+    height: 100vh; */
 
+    /* Flexbox stuff */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
 
 
 /* Blog
 -----------------------------------*/
 #blog {
     margin: 0 auto;
+
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #blog .col-sm {
@@ -224,8 +338,35 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
     padding: 10px;
 }
 
+.related-posts {
+    background: #47BFC1;
+}
+
+.related-posts h2 {
+    color: #FFFFFF;
+}
+
+.related-posts img {
+    width: 30%;
+}
+
+.related-posts .card {
+    border-radius: 0;
+}
+
 /* Contact
 -----------------------------------*/
+#contact {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #contact input, #contact textarea, #contact button {
     margin: 10px auto;
     border-radius: 0;
