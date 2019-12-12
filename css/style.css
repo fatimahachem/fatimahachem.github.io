@@ -11,6 +11,8 @@ https://coolors.co/47bfc1-c86ff6-5957ca-ffffff-252323
 /* Colors
 -----------------------------------*/
 :root {
+    --mustard-yellow: #E3C400; 
+    --dark-gray: #545152;
     --maximum-blue-green: #47BFC1;
     --heliotrope: #C86FF6;
     --Iris: #5957CA;
@@ -40,7 +42,7 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
 }
 
 a {
-    color: #5957CA;
+    color: #E3C400;
     text-decoration: none;
 }
 
@@ -54,15 +56,15 @@ a:hover {
 }
 
 .btn, .btn:hover {
-    background: #5957CA;
-    border: 1px solid #5957CA;
+    background: #E3C400;
+    border: 1px solid #E3C400;
     border-radius: 0;
     color: #FFFFFF;
 }
 
 .full-width-section {
     text-align: center;
-    background: #47BFC1;
+    background: #E3C400;
     color: #FFFFFF;
 }
 
@@ -80,7 +82,7 @@ a:hover {
 /* Header Style
 -----------------------------------*/
 /* .hero {
-    background: #47BFC1;
+    background: #E3C400;
     color: #FFFFFF;
     margin-top: 50px;
 } */
@@ -100,7 +102,7 @@ a:hover {
     color: #252323;
     
     /* Background styles */
-    background-image: linear-gradient(#47BFC1,#FFFFFF), url('/img/testimonial-image.jpg');
+    background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url('../img/coding.jpg'); /* */
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -112,12 +114,16 @@ a:hover {
     font-size: 5em;
     
     /* Margins */
-    margin-top: 0;
-    margin-bottom: 0.5em;
+    margin: 0 50px;
 }
 
 .hero p {
     font-size: 21px;
+}
+
+.hero a {
+    font-size: 28px;
+    text-decoration: underline;
 }
 
 .hero .btn {
@@ -140,7 +146,7 @@ a:hover {
     font-size: 18px;
     
     /* Background styles */
-    background-color: #5957CA;
+    background-color: #E3C400;
 }
 
 /* Services
@@ -339,19 +345,7 @@ a:hover {
 }
 
 .related-posts {
-    background: #47BFC1;
-}
-
-.related-posts h2 {
-    color: #FFFFFF;
-}
-
-.related-posts img {
-    width: 30%;
-}
-
-.related-posts .card {
-    border-radius: 0;
+    
 }
 
 /* Contact
@@ -386,7 +380,7 @@ a:hover {
 /* Footer
 -----------------------------------*/
 .site-footer {
-    background: #5957CA;
+    background: #545152;
     color: #FFFFFF;
 }
 
@@ -396,8 +390,8 @@ a:hover {
 }
 
 #footer-subscribe button, #footer-subscribe button:hover {
-    background: #47BFC1;
-    border: 1px solid #47BFC1;
+    background: #E3C400;
+    border: 1px solid #E3C400;
 }
 
 #footer-subscribe input[type='email'] {

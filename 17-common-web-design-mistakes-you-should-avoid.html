@@ -17,61 +17,20 @@
         <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     </head>
     <body>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-            <a class="navbar-brand" href="#">Fatima Hachem</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#testimonials">Testimonials</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#blog">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                    <!-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown01">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Another action here</a>
-                            <hr>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li> -->
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </div>
-        </nav>
-
         <main id="content">
           <!-- Hero -->
           <section class="hero">
               <div class="hero-inner">
-                  <h1>17 Common Web Design Mistakes You Should Avoid</h1>
-                  <!-- <a href="https://example.com/" class="btn">Go ahead...</a> -->
+                <div class="container">
+                    <a href="index.html">Home</a>
+                    <h1>17 Common Web Design Mistakes You Should Avoid</h1>
+                    <a href="#continue" class="btn">Continue Reading</a>
+                </div>
               </div>
           </section>
         
             <!-- Article Content Section -->
-            <div class="container space-2 space-3-bottom--lg">
+            <div class="container space-2 space-3-bottom--lg" id="continue">
               <div class="row">
                 <div class="">
                   <!-- Info -->
@@ -269,86 +228,29 @@
             <!-- End Article Content Section -->
         
             <!-- Related News Section -->
-            <div class="bg-gray-100 related-posts">
-                <div class="container space-2 space-3--lg">
-                    <!-- Title -->
-                    <div class="w-md-80 w-lg-60 text-center mx-auto mb-7">
-                    <h2 class="h3">Got another minute? Check out:</h2>
+            <section id="related-posts" class="full-width-section">
+                <div class="container">
+                    <h1>Got another minute? Check out:</h1>
+                    <br /><br />
+                    <div class="row">
+                        <div class="col-sm">
+                            <div class="card">
+                                <a href="5-simple-ways-to-boost-your-wordpress-website-security.html"><img src="img/5-Simple-Ways-to-Boost-Your-WordPress-Website-Security.png" class="card-img-top" alt="..."></a>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="card">
+                                <a href="start-a-website-in-7-easy-steps.html"><img src="img/How-to-Start-Your-Own-Website-in-7-Easy-Steps.png" class="card-img-top" alt="..."></a>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="card">
+                                <a href="17-common-web-design-mistakes-you-should-avoid.html"><img src="img/17-common-web-design-mistakes-you-should-avoid.png" class="card-img-top" alt="..."></a>
+                            </div>
+                        </div>
                     </div>
-                    <!-- End Title -->
-    
-                    <br><br>
-            
-                    <div class="card-deck d-block d-lg-flex">
-                    <!-- Blog Grid -->
-                    <article class="card mb-4 mb-lg-0">
-                        <div class="card-body p-5">
-                        <small class="d-block text-muted mb-2">May 1, 2019</small>
-                        <h3 class="h5">
-                            <a href="start-a-website-in-7-easy-steps.html">How to Start a Website in 7 Easy Steps</a>
-                        </h3>
-                        <p class="mb-0">Do you have this great idea for a blog or a website that you want to share with the world but you feel very overwhelmed?</p>
-                        </div>
-                        <div class="card-footer py-4 px-5">
-                        <div class="media">
-                            <img class="u-sm-avatar rounded-circle mr-3" src="img/testimonial-image.jpg" alt="Image Description">
-                            <div class="media-body">
-                            <h4 class="d-inline-block mb-0">
-                                <a class="d-block font-size-13" href="#">Fatima Hachem</a>
-                            </h4>
-                            </div>
-                        </div>
-                        </div>
-                    </article>
-                    <!-- End Blog Grid -->
-            
-                    <!-- Blog Grid -->
-                    <article class="card mb-4 mb-lg-0">
-                        <div class="card-body p-5">
-                        <small class="d-block text-muted mb-2">February 13, 2018</small>
-                        <h3 class="h5">
-                            <a href="17-common-web-design-mistakes-you-should-avoid.html">17 Common Web Design Mistakes You Should Avoid</a>
-                        </h3>
-                        <p class="mb-0">A professional and unique online presence is very important for establishing your credibility and attracting new clients and audience.</p>
-                        </div>
-                        <div class="card-footer py-4 px-5">
-                        <div class="media">
-                            <img class="u-sm-avatar rounded-circle mr-3" src="img/testimonial-image.jpg" alt="Image Description">
-                            <div class="media-body">
-                            <h4 class="d-inline-block mb-0">
-                                <a class="d-block font-size-13" href="#">Fatima Hachem</a>
-                            </h4>
-                            </div>
-                        </div>
-                        </div>
-                    </article>
-                    <!-- End Blog Grid -->
-            
-                    <!-- Blog Grid -->
-                    <article class="card mb-4 mb-lg-0">
-                        <div class="card-body p-5">
-                        <small class="d-block text-muted mb-2">April 2, 2019</small>
-                        <h3 class="h5">
-                            <a href="5-simple-ways-to-boost-your-wordpress-website-security.html">5 Simple Ways to Boost Your WordPress Website Security</a>
-                        </h3>
-                        <p class="mb-0">There are several things you can do to make sure your website is secure. In this post, I talk about 5 simple ways to boost your Wordpress website security.</p>
-                        </div>
-                        <div class="card-footer py-4 px-5">
-                        <div class="media">
-                            <img class="u-sm-avatar rounded-circle mr-3" src="img/testimonial-image.jpg" alt="Image Description">
-                            <div class="media-body">
-                            <h4 class="d-inline-block mb-0">
-                                <a class="d-block font-size-13" href="#">Fatima Hachem</a>
-                            </h4>
-                            </div>
-                        </div>
-                        </div>
-                    </article>
-                    <!-- End Blog Grid -->
-                    </div>
-                    <br>
                 </div>
-            </div>
+            </section>
             <!-- Related News Section -->
           </main>
           <!-- ========== END MAIN CONTENT ========== -->
