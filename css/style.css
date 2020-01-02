@@ -33,8 +33,9 @@ https://coolors.co/47bfc1-c86ff6-5957ca-ffffff-252323
 
 /* Global Styles
 -----------------------------------*/
-body {
+body, p {
     font-family: "JosefinSans-Light", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
 }
 
 h1, h2, h3, h4, h5, h6, .navbar-brand {
@@ -71,7 +72,8 @@ a:hover {
 /* Navigation
 -----------------------------------*/
 .navbar {
-    background: #252323;
+    background: #FFFFFF;
+    border-bottom: 2px solid #E3C400;
 }
 
 .dropdown-menu {
