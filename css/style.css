@@ -359,6 +359,14 @@ a:hover {
     font-size: 28px;
 }
 
+.about-author h1 {
+    font-size: 21px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    letter-spacing: 3px;
+}
+
 /* Contact
 -----------------------------------*/
 #contact {
@@ -381,15 +389,12 @@ a:hover {
     width: 100%;
 }
 
-/* Bottom CTA
------------------------------------*/
-#bottom-cta {
-    background: #C86FF6;
-    color: #FFFFFF;
-}
-
 /* Footer
 -----------------------------------*/
+.site-newsletter {
+    border-top: 2px solid #E3C400;
+}
+
 .site-footer {
     background: #545152;
     color: #FFFFFF;
@@ -407,6 +412,26 @@ a:hover {
 
 #footer-subscribe input[type='email'] {
     border-radius: 0;
+}
+
+.btn-insta-follow {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: 0;
+    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 /* Media Queries

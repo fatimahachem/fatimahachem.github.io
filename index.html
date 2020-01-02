@@ -14,9 +14,18 @@
             <link rel="stylesheet" href="css/bootstrap-responsive.css">
             <link rel="stylesheet" href="css/style.css">
 
-            <title>Hello, world!</title>
+            <title>Fatima Hachem | Web Developer</title>
             
             <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+            <script> 
+                $(function(){
+                $("#include_header").load("header.html"); 
+                $("#include_footer").load("footer.html"); 
+                });
+            </script>
     </head>
     <body>
         <nav class="navbar navbar-expand-md navbar-light fixed-top">
@@ -353,51 +362,144 @@
                     </div>
                 </div>
                 <!-- End Contact Us Form Section -->
-            </section> 
-
-            <section id="bottom-cta" class="full-width-section">
-                <div class="container">
-                    
-                </div>
             </section>       
         </main>
+
+        <div class="site-newsletter">
+                <div class="container">
+                  <div class="text-center">
+                    <h3 class="h4 mb-2">Subscribe to our newsletter</h3>
+                    <p class="text-muted">Join our monthly newsletter and never miss out on code, tech, and website posts!</p>
+            
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-9 col-md-7 col-lg-5 ml-auto mr-auto">
+                        <div class="input-group mb-3 mt-3">
+                          <input type="text" class="form-control" placeholder="Email address" aria-label="Email address">
+                          <span class="input-group-btn">
+                            <button class="btn btn-secondary" type="button">Subscribe</button>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+        <div class="site-instagram">
+                <div class="action">
+                  <a class="btn btn-insta-follow" href="#">
+                    Follow us @ Instagram
+                  </a>
+                </div>
+                <div class="row no-gutters">
+                  <div class="col-sm-6">
+                    <div class="row no-gutters">
+                      <div class="col-3">
+                        <a class="photo" href="#">
+                          <img class="img-fluid" src="img/17-Common-Web-Design-Mistakes-You-Should-Avoid.png" alt="" />
+                        </a>
+                      </div>
+                      <div class="col-3">
+                        <a class="photo" href="#">
+                          <img class="img-fluid" src="img/5-Simple-Ways-to-Boost-Your-WordPress-Website-Security.png" alt="" />
+                        </a>
+                      </div>
+                      <div class="col-3">
+                        <a class="photo" href="#">
+                          <img class="img-fluid" src="img/How-to-Start-Your-Own-Website-in-7-Easy-Steps.png" alt="" />
+                        </a>
+                      </div>
+                      <div class="col-3">
+                        <a class="photo" href="#">
+                          <img class="img-fluid" src="img/17-Common-Web-Design-Mistakes-You-Should-Avoid.png" alt="" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="row no-gutters">
+                      <div class="col-3">
+                        <a class="photo" href="#">
+                          <img class="img-fluid" src="img/5-Simple-Ways-to-Boost-Your-WordPress-Website-Security.png" alt="" />
+                        </a>
+                      </div>
+                      <div class="col-3">
+                        <a class="photo" href="#">
+                          <img class="img-fluid" src="img/How-to-Start-Your-Own-Website-in-7-Easy-Steps.png" alt="" />
+                        </a>
+                      </div>
+                      <div class="col-3">
+                        <a class="photo" href="#">
+                          <img class="img-fluid" src="img/17-Common-Web-Design-Mistakes-You-Should-Avoid.png" alt="" />
+                        </a>
+                      </div>
+                      <div class="col-3">
+                        <a class="photo" href="#">
+                          <img class="img-fluid" src="img/5-Simple-Ways-to-Boost-Your-WordPress-Website-Security.png" alt="" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <footer class="site-footer bg-darkest">
+                    <div class="container">
                 
-        <footer class="site-footer" id="site-footer"> 
+                      <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Privacy policy</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Terms and Conditions</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                      </ul>
+                      <div class="copyright">
+                        &copy; Fatima Hachem 2020<br />
+                        All rights reserved
+                      </div>
+                    </div>
+                  </footer>
+                
+        <!-- <footer class="site-footer" id="site-footer"> 
             <section>           
                 <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <h3>Footer 1</h3>
-                            <p>Footer 1 Content Goes Here</p>
-                        </div>
-                        <div id="footer-subscribe" class="col-md-3 col-lg-6 col-xl-6 mt-3 mt-lg-0 mt-6 mt-md-0">
-                            <h3 class="font-weight-normal">Subscribe</h3>
-                            <p class="text-gray">Join our mailing list. We write rarely, but only the best content.</p>
-                            <form>
-                                <div class="form-row">
-                                    <div class="col-12">
-                                        <input type="email" class="form-control mb-2" placeholder="Email Address" name="email" required>
+                        <div class="row">
+                            <div class="col">
+                                <h3>Footer 1</h3>
+                                <p>Footer 1 Content Goes Here</p>
+                            </div>
+                            <div id="footer-subscribe" class="col-md-3 col-lg-6 col-xl-6 mt-3 mt-lg-0 mt-6 mt-md-0">
+                                <h3 class="font-weight-normal">Subscribe</h3>
+                                <p class="text-gray">Join our mailing list. We write rarely, but only the best content.</p>
+                                <form>
+                                    <div class="form-row">
+                                        <div class="col-12">
+                                            <input type="email" class="form-control mb-2" placeholder="Email Address" name="email" required>
+                                        </div>
+                                        <div class="col-12">
+                                            <button type="submit" class="btn btn-secondary shadow-soft btn-block" data-loading-text="Sending">
+                                                <span>Subscribe</span>
+                                            </button>
+                                        </div>
                                     </div>
-                                    <div class="col-12">
-                                        <button type="submit" class="btn btn-secondary shadow-soft btn-block" data-loading-text="Sending">
-                                            <span>Subscribe</span>
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-                            <small class="text-gray mt-3 form-text">
-                                We’ll never share your details. See our <a class="text-light" href="#">Privacy Policy</a>
-                            </small>
+                                </form>
+                                <small class="text-gray mt-3 form-text">
+                                    We’ll never share your details. See our <a class="text-light" href="#">Privacy Policy</a>
+                                </small>
+                            </div>
+                        </div> 
+                        <div class="row copyright">
+                            <div class="col">
+                                <p>Copyright © Fatima Hachem 2019 All Rights Reserved</p>
+                            </div>
                         </div>
-                    </div> 
-                    <div class="row copyright">
-                        <div class="col">
-                            <p>Copyright © Fatima Hachem 2019 All Rights Reserved</p>
-                        </div>
-                    </div>
                 </div>
             </section>
-        </footer>
+        </footer> -->
 
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

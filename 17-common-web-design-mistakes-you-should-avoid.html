@@ -2,6 +2,36 @@
 <html>
     <head>
         <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5e0e4780f689ea0012c9e33b&cms=sop' async='async'></script>
+        <script src="https://cdn.jsdelivr.net/sharer.js/latest/sharer.min.js"></script>
+
+        <script>
+          document.addEventListener("DOMContentLoaded", function(event) { 
+
+            // Uses sharer.js 
+            var url = window.location.href;
+            var title = document.title;
+            var subject = "Read this good article";
+            var via = "iamfatimahachem";
+            //console.log( url );
+            //console.log( title );
+
+            // facebook
+            $('#share-fb').attr('data-url', url).attr('data-sharer', 'facebook');
+            // twitter
+            $('#share-tw').attr('data-url', url).attr('data-title', title).attr('data-via', via).attr('data-sharer', 'twitter');
+            // pinterest
+            $('#share-pi').attr('data-url', url).attr('data-title', title).attr('data-sharer', 'pinterest');
+            // linkedin
+            $('#share-li').attr('data-url', url).attr('data-sharer', 'linkedin');
+          
+            //Prevent basic click behavior
+            $( ".sharer button" ).click(function() {
+              event.preventDefault();
+            });
+              
+                      
+          });
+        </script>
 
         <!-- Required meta tags -->
         <meta charset="utf-8">
@@ -197,21 +227,11 @@
 
                           <div class="row">
                             <div class="col-12 text-center">
-                
                               <!-- Buttons -->
-                              <a class="btn btn-facebook mr-3 mb-3" href="#!">
-                                <i class="fab fa-facebook-f mr-2"></i> Share on Facebook
-                              </a>
-                              <a class="btn btn-twitter mr-3 mb-3" href="#!">
-                                <i class="fab fa-twitter mr-2"></i> Share on Twitter
-                              </a>
-                              <a class="btn btn-pinterest mr-3 mb-3" href="#!">
-                                <i class="fab fa-pinterest-p mr-2"></i> Share on Pinterest
-                              </a>
-                              <a class="btn btn-linkedin mr-3 mb-3" href="#!">
-                                <i class="fab fa-linkedin-in mr-2"></i> Share on LinkedIn
-                              </a>
-                
+                              <a href="#" id="share-fb" class="sharer button btn btn-facebook mr-3 mb-3"><i class="fab fa-facebook-f mr-2"></i>Share on Facebook</a>
+                              <a href="#" id="share-tw" class="sharer button btn btn-twitter mr-3 mb-3"><i class="fab fa-twitter mr-2"></i>Share on Twitter</a>
+                              <a href="#" id="share-pi" class="sharer button btn btn-pinterest mr-3 mb-3"><i class="fab fa-pinterest-p mr-2"></i>Share on Pinterest</a>
+                              <a href="#" id="share-li" class="sharer button btn btn-linkedin mr-3 mb-3"><i class="fab fa-linkedin-in mr-2"></i>Share on Linkedin</a>
                             </div>
                           </div>
                         </div>
@@ -222,19 +242,21 @@
                     <br>
         
                   <!-- Author -->
-                <div class="media">
-                    <img class="u-lg-avatar rounded-circle mr-4" src="img/testimonial-image.jpg" alt="Image Description" style="width: 10%;">
-                    <div class="media-body">
-                        <h4 class="h5">Fatima Hachem</h4>
-                        <p>I'm a coffee-loving web-developer with a passion for all things code and tech. I build websites that will achieve your goals effectively and efficiently so you can focus on what you do best, charge higher prices, work with amazing clients, and create a lifestyle of freedom.</p>
-                        <a class="btn btn-sm btn-secondary" href="#">All Author Posts</a>
-                    </div>
-                </div>
+                  <div class="about-author">
+                      <h1>About the Author</h1>
+                      <br>
+                      <div class="media">
+                          <img class="u-lg-avatar rounded-circle mr-4" src="img/Fatima-Arabic.png" alt="Image Description" style="width: 10%;">
+                          <div class="media-body">
+                              <h4 class="h5">Fatima Hachem</h4>
+                              <p>I'm a coffee-loving web-developer with a passion for all things code and tech. I build websites that will achieve your goals effectively and efficiently so you can focus on what you do best, charge higher prices, work with amazing clients, and create a lifestyle of freedom.</p>
+                              <a class="btn btn-sm btn-secondary" href="#">All Author Posts</a>
+                          </div>
+                      </div>
+                  </div>
                 <!-- End Author -->
                   
                   <br>
-
-                  <hr class="my-8">
                 </div>
               </div>
             </div>
@@ -268,40 +290,104 @@
           </main>
           <!-- ========== END MAIN CONTENT ========== -->
                 
-        <footer class="site-footer">                  
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <h3>Footer 1</h3>
-                        <p>Footer 1 Content Goes Here</p>
+          <div class="site-newsletter">
+              <div class="container">
+                <div class="text-center">
+                  <h3 class="h4 mb-2">Subscribe to our newsletter</h3>
+                  <p class="text-muted">Join our monthly newsletter and never miss out on code, tech, and website posts!</p>
+          
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-9 col-md-7 col-lg-5 ml-auto mr-auto">
+                      <div class="input-group mb-3 mt-3">
+                        <input type="text" class="form-control" placeholder="Email address" aria-label="Email address">
+                        <span class="input-group-btn">
+                          <button class="btn btn-secondary" type="button">Subscribe</button>
+                        </span>
+                      </div>
                     </div>
-                    <div id="footer-subscribe" class="col-md-3 col-lg-6 col-xl-6 mt-3 mt-lg-0 mt-6 mt-md-0">
-                        <h3 class="font-weight-normal">Subscribe</h3>
-                        <p class="text-gray">Join our mailing list. We write rarely, but only the best content.</p>
-                        <form>
-                            <div class="form-row">
-                                <div class="col-12">
-                                    <input type="email" class="form-control mb-2" placeholder="Email Address" name="email" required>
-                                </div>
-                                <div class="col-12">
-                                    <button type="submit" class="btn btn-secondary shadow-soft btn-block" data-loading-text="Sending">
-                                        <span>Subscribe</span>
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                        <small class="text-gray mt-3 form-text">
-                            We’ll never share your details. See our <a class="text-light" href="#">Privacy Policy</a>
-                        </small>
-                    </div>
-                </div> 
-                <div class="row copyright">
-                    <div class="col">
-                        <p>Copyright © Fatima Hachem 2019 All Rights Reserved</p>
-                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
-        </footer>
+
+      <div class="site-instagram">
+              <div class="action">
+                <a class="btn btn-insta-follow" href="#">
+                  Follow us @ Instagram
+                </a>
+              </div>
+              <div class="row no-gutters">
+                <div class="col-sm-6">
+                  <div class="row no-gutters">
+                    <div class="col-3">
+                      <a class="photo" href="#">
+                        <img class="img-fluid" src="img/17-Common-Web-Design-Mistakes-You-Should-Avoid.png" alt="" />
+                      </a>
+                    </div>
+                    <div class="col-3">
+                      <a class="photo" href="#">
+                        <img class="img-fluid" src="img/5-Simple-Ways-to-Boost-Your-WordPress-Website-Security.png" alt="" />
+                      </a>
+                    </div>
+                    <div class="col-3">
+                      <a class="photo" href="#">
+                        <img class="img-fluid" src="img/How-to-Start-Your-Own-Website-in-7-Easy-Steps.png" alt="" />
+                      </a>
+                    </div>
+                    <div class="col-3">
+                      <a class="photo" href="#">
+                        <img class="img-fluid" src="img/17-Common-Web-Design-Mistakes-You-Should-Avoid.png" alt="" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="row no-gutters">
+                    <div class="col-3">
+                      <a class="photo" href="#">
+                        <img class="img-fluid" src="img/5-Simple-Ways-to-Boost-Your-WordPress-Website-Security.png" alt="" />
+                      </a>
+                    </div>
+                    <div class="col-3">
+                      <a class="photo" href="#">
+                        <img class="img-fluid" src="img/How-to-Start-Your-Own-Website-in-7-Easy-Steps.png" alt="" />
+                      </a>
+                    </div>
+                    <div class="col-3">
+                      <a class="photo" href="#">
+                        <img class="img-fluid" src="img/17-Common-Web-Design-Mistakes-You-Should-Avoid.png" alt="" />
+                      </a>
+                    </div>
+                    <div class="col-3">
+                      <a class="photo" href="#">
+                        <img class="img-fluid" src="img/5-Simple-Ways-to-Boost-Your-WordPress-Website-Security.png" alt="" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <footer class="site-footer bg-darkest">
+                  <div class="container">
+              
+                    <ul class="nav justify-content-center">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Privacy policy</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Terms and Conditions</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                      </li>
+                    </ul>
+                    <div class="copyright">
+                      &copy; Fatima Hachem 2020<br />
+                      All rights reserved
+                    </div>
+                  </div>
+                </footer>
 
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
