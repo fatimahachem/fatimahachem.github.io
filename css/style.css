@@ -91,8 +91,8 @@ a:hover {
 
 .hero {
     /* Sizing */
-    width: 100vw;
-    height: 100vh;
+    width: 99vw;
+    height: 99vh;
     
     /* Flexbox stuff */
     display: flex;
@@ -155,8 +155,8 @@ a:hover {
 -----------------------------------*/
 #services {
     /* Sizing */
-    width: 100vw;
-    height: 100vh;
+    width: 99vw;
+    height: 99vh;
 
     /* Flexbox stuff */
     display: flex;
@@ -172,8 +172,8 @@ a:hover {
 -----------------------------------*/
 #about {
     /* Sizing */
-    width: 100vw;
-    height: 100vh;
+    width: 99vw;
+    height: 99vh;
 
     /* Flexbox stuff */
     display: flex;
@@ -189,8 +189,8 @@ a:hover {
 -----------------------------------*/
 #testimonials {
     /* Sizing */
-    width: 100vw;
-    height: 100vh;
+    width: 99vw;
+    height: 99vh;
 
     /* Flexbox stuff */
     display: flex;
@@ -277,8 +277,8 @@ a:hover {
 -----------------------------------*/
 #work-with-me {
     /* Sizing */
-    /* width: 100vw;
-    height: 100vh; */
+    /* width: 99vw;
+    height: 99vh; */
 
     /* Flexbox stuff */
     /* display: flex;
@@ -293,8 +293,8 @@ a:hover {
     margin: 0 auto;
 
     /* Sizing */
-    /* width: 100vw;
-    height: 100vh; */
+    /* width: 99vw;
+    height: 99vh; */
 
     /* Flexbox stuff */
     display: flex;
@@ -350,12 +350,21 @@ a:hover {
     
 }
 
+.emoji-likes {
+    text-align: center;
+}
+
+.emoji-likes p {
+    font-weight: 600;
+    font-size: 28px;
+}
+
 /* Contact
 -----------------------------------*/
 #contact {
     /* Sizing */
-    width: 100vw;
-    height: 100vh;
+    width: 99vw;
+    height: 99vh;
 
     /* Flexbox stuff */
     display: flex;
