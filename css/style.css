@@ -124,7 +124,7 @@ a:hover {
 }
 
 .hero a {
-    font-size: 28px;
+    font-size: 21px;
     text-decoration: underline;
 }
 
@@ -291,6 +291,7 @@ a:hover {
 -----------------------------------*/
 #blog {
     margin: 0 auto;
+    padding: 150px;
 
     /* Sizing */
     /* width: 99vw;
@@ -380,6 +381,10 @@ a:hover {
     align-items: center;
 }
 
+section#contact {
+    background: #dbdbdb;
+}
+
 #contact input, #contact textarea, #contact button {
     margin: 10px auto;
     border-radius: 0;
@@ -389,10 +394,22 @@ a:hover {
     width: 100%;
 }
 
+.kw-credit {
+    display: none !important;
+}
+
 /* Footer
 -----------------------------------*/
 .site-newsletter {
     border-top: 2px solid #E3C400;
+}
+
+.site-newsletter input {
+    padding: 10px;
+}
+
+.site-newsletter [type=submit] {
+    padding: 15px;
 }
 
 .site-footer {

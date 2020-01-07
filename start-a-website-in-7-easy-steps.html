@@ -1,6 +1,38 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5e0e4780f689ea0012c9e33b&cms=sop' async='async'></script>
+        <script src="https://cdn.jsdelivr.net/sharer.js/latest/sharer.min.js"></script>
+
+        <script>
+          document.addEventListener("DOMContentLoaded", function(event) { 
+
+            // Uses sharer.js 
+            var url = window.location.href;
+            var title = document.title;
+            var subject = "Read this good article";
+            var via = "iamfatimahachem";
+            //console.log( url );
+            //console.log( title );
+
+            // facebook
+            $('#share-fb').attr('data-url', url).attr('data-sharer', 'facebook');
+            // twitter
+            $('#share-tw').attr('data-url', url).attr('data-title', title).attr('data-via', via).attr('data-sharer', 'twitter');
+            // pinterest
+            $('#share-pi').attr('data-url', url).attr('data-title', title).attr('data-sharer', 'pinterest');
+            // linkedin
+            $('#share-li').attr('data-url', url).attr('data-sharer', 'linkedin');
+          
+            //Prevent basic click behavior
+            $( ".sharer button" ).click(function() {
+              event.preventDefault();
+            });
+              
+                      
+          });
+        </script>
+
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,7 +54,7 @@
           <section class="hero">
               <div class="hero-inner">
                     <div class="container">
-                        <a href="index.html">Home</a>
+                        <a href="index.html">Back to Home</a>
                         <h1>How to Start a Website in 7 Easy Steps</h1>
                         <a href="#continue" class="btn">Continue Reading</a>
                     </div>
@@ -116,41 +148,35 @@
                             <div class="col-12 text-center">
                 
                               <!-- Tags -->
-                              <a class="btn btn-xs btn-outline-border font-weight-normal text-gray-500 mr-3 mb-3 tag" href="#!">
-                                Communication
+                              <a class="btn btn-xs btn-outline-border font-weight-normal text-gray-500 mr-3 mb-3 tag" href="">
+                                Web Design
                               </a>
-                              <a class="btn btn-xs btn-outline-border font-weight-normal text-gray-500 mr-3 mb-3 tag" href="#!">
+                              <a class="btn btn-xs btn-outline-border font-weight-normal text-gray-500 mr-3 mb-3 tag" href="">
                                 Business
                               </a>
-                              <a class="btn btn-xs btn-outline-border font-weight-normal text-gray-500 mr-3 mb-3 tag" href="#!">
-                                Fashion
-                              </a>
-                              <a class="btn btn-xs btn-outline-border font-weight-normal text-gray-500 mr-3 mb-3 tag" href="#!">
-                                Marketing
-                              </a>
-                              <a class="btn btn-xs btn-outline-border font-weight-normal text-gray-500 mr-3 mb-3 tag" href="#!">
-                                Teamwork
+                              <a class="btn btn-xs btn-outline-border font-weight-normal text-gray-500 mr-3 mb-3 tag" href="">
+                                Web Development
                               </a>
                 
                             </div>
                           </div>
+                          <br>
+
+                          <div class="emoji-likes">
+                              <p>Like this Article?</p>
+                              <div class="sharethis-inline-reaction-buttons"></div>
+                          </div>
+
+                          <br><br><br>
+
+
                           <div class="row">
                             <div class="col-12 text-center">
-                
                               <!-- Buttons -->
-                              <a class="btn btn-facebook mr-3 mb-3" href="#!">
-                                <i class="fab fa-facebook-f mr-2"></i> Share on Facebook
-                              </a>
-                              <a class="btn btn-twitter mr-3 mb-3" href="#!">
-                                <i class="fab fa-twitter mr-2"></i> Share on Twitter
-                              </a>
-                              <a class="btn btn-pinterest mr-3 mb-3" href="#!">
-                                <i class="fab fa-pinterest-p mr-2"></i> Share on Pinterest
-                              </a>
-                              <a class="btn btn-linkedin mr-3 mb-3" href="#!">
-                                <i class="fab fa-linkedin-in mr-2"></i> Share on LinkedIn
-                              </a>
-                
+                              <a href="#" id="share-fb" class="sharer button btn btn-facebook mr-3 mb-3"><i class="fab fa-facebook-f mr-2"></i>Share on Facebook</a>
+                              <a href="#" id="share-tw" class="sharer button btn btn-twitter mr-3 mb-3"><i class="fab fa-twitter mr-2"></i>Share on Twitter</a>
+                              <a href="#" id="share-pi" class="sharer button btn btn-pinterest mr-3 mb-3"><i class="fab fa-pinterest-p mr-2"></i>Share on Pinterest</a>
+                              <a href="#" id="share-li" class="sharer button btn btn-linkedin mr-3 mb-3"><i class="fab fa-linkedin-in mr-2"></i>Share on Linkedin</a>
                             </div>
                           </div>
                         </div>
@@ -229,63 +255,67 @@
               </div>
             </div>
 
-      <div class="site-instagram">
-              <div class="action">
-                <a class="btn btn-insta-follow" href="#">
-                  Follow us @ Instagram
-                </a>
-              </div>
-              <div class="row no-gutters">
-                <div class="col-sm-6">
-                  <div class="row no-gutters">
-                    <div class="col-3">
-                      <a class="photo" href="#">
-                        <img class="img-fluid" src="img/17-Common-Web-Design-Mistakes-You-Should-Avoid.png" alt="" />
-                      </a>
+      <!-- SnapWidget -->
+        <script src="https://snapwidget.com/js/snapwidget.js"></script>
+        <iframe src="https://snapwidget.com/embed/776739" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
+        
+        <!-- <div class="site-instagram">
+                <div class="action">
+                  <a class="btn btn-insta-follow" href="#">
+                    Follow us @ Instagram
+                  </a>
+                </div>
+                <div class="row no-gutters">
+                  <div class="col-sm-6">
+                    <div class="row no-gutters">
+                      <div class="col-3">
+                        <a class="photo" href="#">
+                          <img class="img-fluid" src="img/17-Common-Web-Design-Mistakes-You-Should-Avoid.png" alt="" />
+                        </a>
+                      </div>
+                      <div class="col-3">
+                        <a class="photo" href="#">
+                          <img class="img-fluid" src="img/5-Simple-Ways-to-Boost-Your-WordPress-Website-Security.png" alt="" />
+                        </a>
+                      </div>
+                      <div class="col-3">
+                        <a class="photo" href="#">
+                          <img class="img-fluid" src="img/How-to-Start-Your-Own-Website-in-7-Easy-Steps.png" alt="" />
+                        </a>
+                      </div>
+                      <div class="col-3">
+                        <a class="photo" href="#">
+                          <img class="img-fluid" src="img/17-Common-Web-Design-Mistakes-You-Should-Avoid.png" alt="" />
+                        </a>
+                      </div>
                     </div>
-                    <div class="col-3">
-                      <a class="photo" href="#">
-                        <img class="img-fluid" src="img/5-Simple-Ways-to-Boost-Your-WordPress-Website-Security.png" alt="" />
-                      </a>
-                    </div>
-                    <div class="col-3">
-                      <a class="photo" href="#">
-                        <img class="img-fluid" src="img/How-to-Start-Your-Own-Website-in-7-Easy-Steps.png" alt="" />
-                      </a>
-                    </div>
-                    <div class="col-3">
-                      <a class="photo" href="#">
-                        <img class="img-fluid" src="img/17-Common-Web-Design-Mistakes-You-Should-Avoid.png" alt="" />
-                      </a>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="row no-gutters">
+                      <div class="col-3">
+                        <a class="photo" href="#">
+                          <img class="img-fluid" src="img/5-Simple-Ways-to-Boost-Your-WordPress-Website-Security.png" alt="" />
+                        </a>
+                      </div>
+                      <div class="col-3">
+                        <a class="photo" href="#">
+                          <img class="img-fluid" src="img/How-to-Start-Your-Own-Website-in-7-Easy-Steps.png" alt="" />
+                        </a>
+                      </div>
+                      <div class="col-3">
+                        <a class="photo" href="#">
+                          <img class="img-fluid" src="img/17-Common-Web-Design-Mistakes-You-Should-Avoid.png" alt="" />
+                        </a>
+                      </div>
+                      <div class="col-3">
+                        <a class="photo" href="#">
+                          <img class="img-fluid" src="img/5-Simple-Ways-to-Boost-Your-WordPress-Website-Security.png" alt="" />
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-6">
-                  <div class="row no-gutters">
-                    <div class="col-3">
-                      <a class="photo" href="#">
-                        <img class="img-fluid" src="img/5-Simple-Ways-to-Boost-Your-WordPress-Website-Security.png" alt="" />
-                      </a>
-                    </div>
-                    <div class="col-3">
-                      <a class="photo" href="#">
-                        <img class="img-fluid" src="img/How-to-Start-Your-Own-Website-in-7-Easy-Steps.png" alt="" />
-                      </a>
-                    </div>
-                    <div class="col-3">
-                      <a class="photo" href="#">
-                        <img class="img-fluid" src="img/17-Common-Web-Design-Mistakes-You-Should-Avoid.png" alt="" />
-                      </a>
-                    </div>
-                    <div class="col-3">
-                      <a class="photo" href="#">
-                        <img class="img-fluid" src="img/5-Simple-Ways-to-Boost-Your-WordPress-Website-Security.png" alt="" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+              </div> -->
 
             <footer class="site-footer bg-darkest">
                   <div class="container">
