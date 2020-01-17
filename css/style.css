@@ -60,13 +60,13 @@ a:hover {
     background: #E3C400;
     border: 1px solid #E3C400;
     border-radius: 0;
-    color: #FFFFFF;
+    color: #252323;
 }
 
 .full-width-section {
     text-align: center;
     background: #E3C400;
-    color: #FFFFFF;
+    color: #252323;
 }
 
 /* Navigation
@@ -143,7 +143,7 @@ a:hover {
     border: none;
     
     /* Text styles */
-    color: white;
+    color: #252323;
     text-decoration: none;
     font-size: 18px;
     
@@ -327,24 +327,28 @@ a:hover {
     background: #475A96;
     border: solid 1px #475A96;
     padding: 10px;
+    color: #FFFFFF;
 }
 
 .btn-twitter {
     background: #49B2E8;
     border: solid 1px #49B2E8;
     padding: 10px;
+    color: #FFFFFF;
 }
 
 .btn-pinterest {
     background: #D74047;
     border: solid 1px #D74047;
     padding: 10px;
+    color: #FFFFFF;
 }
 
 .btn-linkedin {
     background: #0D76B4;
     border: solid 1px #0D76B4;
     padding: 10px;
+    color: #FFFFFF;
 }
 
 .related-posts {
