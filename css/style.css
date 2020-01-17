@@ -412,6 +412,10 @@ section#contact {
     padding: 15px;
 }
 
+.site-newsletter #mce-error-response {
+    text-align: center;
+}
+
 .site-footer {
     background: #545152;
     color: #FFFFFF;
