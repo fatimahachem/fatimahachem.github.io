@@ -11,12 +11,12 @@ https://coolors.co/47bfc1-c86ff6-5957ca-ffffff-252323
 /* Colors
 -----------------------------------*/
 :root {
-    --mustard-yellow: #E3C400; 
+    /* --mustard-yellow: #9E15BF; 
     --dark-gray: #545152;
     --maximum-blue-green: #47BFC1;
     --heliotrope: #C86FF6;
     --Iris: #5957CA;
-    --raisin-black: #252323;
+    --raisin-black: #252323; */
 }
 
 /* Fonts
@@ -43,12 +43,12 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
 }
 
 a {
-    color: #E3C400;
+    color: #4ac6d2;
     text-decoration: none;
 }
 
 a:hover {
-    color: #C86FF6;
+    color: #22a6b3;
     text-decoration: none;
  }
 
@@ -57,23 +57,23 @@ a:hover {
 }
 
 .btn, .btn:hover {
-    background: #E3C400;
-    border: 1px solid #E3C400;
+    background: #9E15BF;
+    border: 1px solid #9E15BF;
     border-radius: 0;
-    color: #252323;
+    color: #FFFFFF;
 }
 
 .full-width-section {
     text-align: center;
-    background: #E3C400;
-    color: #252323;
+    background: #22a6b3;
+    color: #FFFFFF;
 }
 
 /* Navigation
 -----------------------------------*/
 .navbar {
     background: #FFFFFF;
-    border-bottom: 2px solid #E3C400;
+    border-bottom: 2px solid #22a6b3;
 }
 
 .dropdown-menu {
@@ -137,12 +137,12 @@ a:hover {
     border: none;
     
     /* Text styles */
-    color: #252323;
+    color: #FFFFFF;
     text-decoration: none;
     font-size: 18px;
     
     /* Background styles */
-    background-color: #E3C400;
+    background-color: #9E15BF;
 }
 
 /* Services
@@ -166,8 +166,8 @@ a:hover {
 -----------------------------------*/
 #about {
     /* Sizing */
-    width: 99vw;
-    height: 99vh;
+    /* width: 99vw;
+    height: 99vh; */
 
     /* Flexbox stuff */
     display: flex;
@@ -380,7 +380,7 @@ a:hover {
 }
 
 section#contact {
-    background: #dbdbdb;
+    background: #f2f1f0;
 }
 
 #contact input, #contact textarea, #contact button {
@@ -399,7 +399,7 @@ section#contact {
 /* Footer
 -----------------------------------*/
 .site-newsletter {
-    border-top: 2px solid #E3C400;
+    border-top: 2px solid #9E15BF;
 }
 
 .site-newsletter input {
@@ -417,7 +417,7 @@ section#contact {
 }
 
 .site-footer {
-    background: #545152;
+    background: #1c1c1c;
     color: #FFFFFF;
 }
 
@@ -427,8 +427,8 @@ section#contact {
 }
 
 #footer-subscribe button, #footer-subscribe button:hover {
-    background: #E3C400;
-    border: 1px solid #E3C400;
+    background: #9E15BF;
+    border: 1px solid #9E15BF;
 }
 
 #footer-subscribe input[type='email'] {
