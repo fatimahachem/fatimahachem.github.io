@@ -8,6 +8,7 @@ https://coolors.co/47bfc1-c86ff6-5957ca-ffffff-252323
 #252323 - Raisin Black
 #A85D30 - Coffee
 #F6EFEA - Cream
+#3F6737 - Cactus
 */
 
 /* Colors
@@ -20,7 +21,8 @@ https://coolors.co/47bfc1-c86ff6-5957ca-ffffff-252323
     --Iris: #5957CA;
     --raisin-black: #252323; 
     --coffee: #A85D30;
-    --cream: #F6EFEA;*/
+    --cream: #F6EFEA;
+    --cactus: #3F6737;*/
 }
 
 /* Fonts
@@ -47,12 +49,12 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
 }
 
 a {
-    color: #4ac6d2;
+    color: #3F6737;
     text-decoration: none;
 }
 
 a:hover {
-    color: #22a6b3;
+    color: #3F6737;
     text-decoration: none;
  }
 
@@ -77,7 +79,7 @@ a:hover {
 -----------------------------------*/
 .navbar {
     background: #FFFFFF;
-    border-bottom: 2px solid #22a6b3;
+    border-bottom: 2px solid #3F6737;
 }
 
 .dropdown-menu {
