@@ -7,6 +7,7 @@ https://coolors.co/47bfc1-c86ff6-5957ca-ffffff-252323
 #FFFFFF - White
 #252323 - Raisin Black
 #A85D30 - Coffee
+#F6EFEA - Cream
 */
 
 /* Colors
@@ -18,7 +19,8 @@ https://coolors.co/47bfc1-c86ff6-5957ca-ffffff-252323
     --heliotrope: #C86FF6;
     --Iris: #5957CA;
     --raisin-black: #252323; 
-    --coffee: #A85D30;*/
+    --coffee: #A85D30;
+    --cream: #F6EFEA;*/
 }
 
 /* Fonts
@@ -382,7 +384,7 @@ a:hover {
 }
 
 section#contact {
-    background: #f2f1f0;
+    background: #F6EFEA;
 }
 
 #contact input, #contact textarea, #contact button {
