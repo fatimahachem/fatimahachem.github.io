@@ -6,6 +6,7 @@ https://coolors.co/47bfc1-c86ff6-5957ca-ffffff-252323
 #5957CA - Iris
 #FFFFFF - White
 #252323 - Raisin Black
+#A85D30 - Coffee
 */
 
 /* Colors
@@ -16,7 +17,8 @@ https://coolors.co/47bfc1-c86ff6-5957ca-ffffff-252323
     --maximum-blue-green: #47BFC1;
     --heliotrope: #C86FF6;
     --Iris: #5957CA;
-    --raisin-black: #252323; */
+    --raisin-black: #252323; 
+    --coffee: #A85D30;*/
 }
 
 /* Fonts
@@ -57,15 +59,15 @@ a:hover {
 }
 
 .btn, .btn:hover {
-    background: #9E15BF;
-    border: 1px solid #9E15BF;
+    background: #A85D30;
+    border: 1px solid #A85D30;
     border-radius: 0;
     color: #FFFFFF;
 }
 
 .full-width-section {
     text-align: center;
-    background: #22a6b3;
+    background: #A85D30;
     color: #FFFFFF;
 }
 
@@ -142,7 +144,7 @@ a:hover {
     font-size: 18px;
     
     /* Background styles */
-    background-color: #9E15BF;
+    background-color: #A85D30;
 }
 
 /* Services
@@ -399,7 +401,7 @@ section#contact {
 /* Footer
 -----------------------------------*/
 .site-newsletter {
-    border-top: 2px solid #9E15BF;
+    border-top: 2px solid #A85D30;
 }
 
 .site-newsletter input {
@@ -427,8 +429,8 @@ section#contact {
 }
 
 #footer-subscribe button, #footer-subscribe button:hover {
-    background: #9E15BF;
-    border: 1px solid #9E15BF;
+    background: #A85D30;
+    border: 1px solid #A85D30;
 }
 
 #footer-subscribe input[type='email'] {
