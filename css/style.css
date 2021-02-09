@@ -117,6 +117,8 @@ a:hover {
     
     /* Margins */
     margin: 0 50px;
+    
+    color: #3F6737;
 }
 
 .home-hero p, .hero p {
@@ -166,6 +168,7 @@ a:hover {
 
 #services h1 {
     text-align: center;
+    color: #3F6737;
 }
 
 /* About
@@ -183,6 +186,7 @@ a:hover {
 
 #about h1 {
     text-align: center;
+    color: #3F6737;
 }
 
 /* Testimonials
@@ -200,6 +204,7 @@ a:hover {
 
 #testimonials h1 {
     text-align: center;
+    color: #3F6737;
 }
 
 #testimonials .carousel img {
